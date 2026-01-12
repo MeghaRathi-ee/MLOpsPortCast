@@ -1,0 +1,24 @@
+name: weather_dataset_processed
+version: v1
+path: Dataset/processed/v1/weather_dataset_processed.csv
+
+description: >
+  Hourly weather dataset for predicting future weather condition
+  at Port of Turku, Finland.
+
+target_column: Future_weather_condition
+
+features:
+  - Temperature_C
+  - Humidity
+  - Wind_speed_kmph
+  - Wind_bearing_degrees
+  - Visibility_km
+  - Pressure_millibars
+  - Weather_condition
+
+time_column: Timestamp
+location_column: Location
+
+created_by: Megha
+created_on: 2026-01-12

@@ -34,9 +34,9 @@ Thumbs.db
 # ===============================
 # Data files (raw & large)
 # ===============================
-data/
-Dataset/
-*.csv
+# data/
+# Dataset/
+# *.csv
 
 # ===============================
 # Azure ML (VERY IMPORTANT)
