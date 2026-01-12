@@ -38,3 +38,5 @@ requirements.txt # Python dependencies
 - Track experiments using MLflow
 - Evaluate and package the model
 - Serve the model locally using an API
+
+“All experiments are run locally using a Python virtual environment as a replacement for cloud compute.”

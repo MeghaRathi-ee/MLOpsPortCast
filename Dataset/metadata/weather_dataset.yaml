@@ -1,6 +1,10 @@
 name: weather_dataset_processed
 version: v1
-path: Dataset/processed/v1/weather_dataset_processed.csv
+
+paths:
+  full: Dataset/processed/v1/weather_dataset_processed.csv
+  train: Dataset/processed/v1/training_data.csv
+  test: Dataset/processed/v1/test_data.csv
 
 description: >
   Hourly weather dataset for predicting future weather condition
